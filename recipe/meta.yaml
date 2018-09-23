@@ -1,6 +1,6 @@
 {% set name = "swiglpk" %}
-{% set version = "1.4.4" %}
-{% set sha256 = "2ed47037b87220a32bb3635d2c4bfb30af39bf2b21c0410b99a1e3a3db17c7b3" %}
+{% set version = "4.65.0" %}
+{% set sha256 = "389e4179bf8eeeeb1d2e215298e133c961855998ed63da9d7d2e1fa207bb9fec" %}
 
 package:
   name: {{ name|lower }}
