@@ -1,4 +1,4 @@
-{% set version = "4.65.0" %}
+{% set version = "4.65.1" %}
 
 package:
   name: swiglpk
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://github.com/biosustain/swiglpk/archive/{{ version }}.tar.gz
-  sha256: 407ac791e6b8e4eb36074e2da10164e4b9a82b67cd8fe3309725ef9a6cc48292
+  sha256: 11693d4b72f18a46ff20969c243f8ab99a1adef17728d066fa22d8d63be07422
 
 build:
-  number: 1001
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
-  skip: True  # [win]
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  skip: true  # [win]
 
 requirements:
   build:
@@ -36,7 +36,7 @@ about:
   home: https://github.com/biosustain/swiglpk
   license: GPL-3.0
   license_file: LICENSE
-  summary: 'Simple swig bindings for the GNU Linear Programming Kit'
+  summary: Simple swig bindings for the GNU Linear Programming Kit
   description: |
     swiglpk is not a high-level wrapper for GLPK (take a look at optlang 
     if you are interested in a python-based mathematical programming language). 
