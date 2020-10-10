@@ -5,9 +5,11 @@ Home: https://github.com/biosustain/swiglpk
 
 Package license: GPL-3.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/swiglpk-feedstock/blob/master/LICENSE.txt)
 
 Summary: Simple swig bindings for the GNU Linear Programming Kit
+
+Development: https://github.com/biosustain/swiglpk
 
 swiglpk is not a high-level wrapper for GLPK (take a look at optlang
 if you are interested in a python-based mathematical programming language).
@@ -32,77 +34,79 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_python3.6.____73_pypy</td>
+              <td>linux_64_c_compiler_version7cxx_compiler_version7python3.6.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4369&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/swiglpk-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/swiglpk-feedstock?branchName=master&jobName=linux&configuration=linux_64_c_compiler_version7cxx_compiler_version7python3.6.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python3.6.____cpython</td>
+              <td>linux_64_c_compiler_version7cxx_compiler_version7python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4369&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/swiglpk-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/swiglpk-feedstock?branchName=master&jobName=linux&configuration=linux_64_c_compiler_version7cxx_compiler_version7python3.6.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python3.7.____cpython</td>
+              <td>linux_64_c_compiler_version7cxx_compiler_version7python3.7.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4369&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/swiglpk-feedstock?branchName=master&jobName=linux&configuration=linux_python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/swiglpk-feedstock?branchName=master&jobName=linux&configuration=linux_64_c_compiler_version7cxx_compiler_version7python3.7.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python3.8.____cpython</td>
+              <td>linux_64_c_compiler_version7cxx_compiler_version7python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4369&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/swiglpk-feedstock?branchName=master&jobName=linux&configuration=linux_python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/swiglpk-feedstock?branchName=master&jobName=linux&configuration=linux_64_c_compiler_version7cxx_compiler_version7python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.6.____73_pypy</td>
+              <td>linux_64_c_compiler_version7cxx_compiler_version7python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4369&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/swiglpk-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/swiglpk-feedstock?branchName=master&jobName=linux&configuration=linux_64_c_compiler_version7cxx_compiler_version7python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.6.____cpython</td>
+              <td>osx_64_c_compiler_version10cxx_compiler_version10python3.6.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4369&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/swiglpk-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/swiglpk-feedstock?branchName=master&jobName=osx&configuration=osx_64_c_compiler_version10cxx_compiler_version10python3.6.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.7.____cpython</td>
+              <td>osx_64_c_compiler_version10cxx_compiler_version10python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4369&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/swiglpk-feedstock?branchName=master&jobName=osx&configuration=osx_python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/swiglpk-feedstock?branchName=master&jobName=osx&configuration=osx_64_c_compiler_version10cxx_compiler_version10python3.6.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.8.____cpython</td>
+              <td>osx_64_c_compiler_version10cxx_compiler_version10python3.7.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4369&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/swiglpk-feedstock?branchName=master&jobName=osx&configuration=osx_python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/swiglpk-feedstock?branchName=master&jobName=osx&configuration=osx_64_c_compiler_version10cxx_compiler_version10python3.7.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_c_compiler_version10cxx_compiler_version10python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4369&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/swiglpk-feedstock?branchName=master&jobName=osx&configuration=osx_64_c_compiler_version10cxx_compiler_version10python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_c_compiler_version10cxx_compiler_version10python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4369&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/swiglpk-feedstock?branchName=master&jobName=osx&configuration=osx_64_c_compiler_version10cxx_compiler_version10python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr>
           </tbody>
         </table>
       </details>
-    </td>
-  </tr>
-  <tr>
-    <td>Windows</td>
-    <td>
-      <img src="https://img.shields.io/badge/Windows-disabled-lightgrey.svg" alt="Windows disabled">
-    </td>
-  </tr>
-  <tr>
-    <td>Linux_ppc64le</td>
-    <td>
-      <img src="https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg" alt="ppc64le disabled">
     </td>
   </tr>
 </table>
