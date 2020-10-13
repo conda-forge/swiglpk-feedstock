@@ -5,9 +5,11 @@ Home: https://github.com/biosustain/swiglpk
 
 Package license: GPL-3.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/swiglpk-feedstock/blob/master/LICENSE.txt)
 
 Summary: Simple swig bindings for the GNU Linear Programming Kit
+
+Development: https://github.com/biosustain/swiglpk
 
 swiglpk is not a high-level wrapper for GLPK (take a look at optlang
 if you are interested in a python-based mathematical programming language).
