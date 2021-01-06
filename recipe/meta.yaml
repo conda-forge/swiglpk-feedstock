@@ -11,12 +11,10 @@ source:
 build:
   number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
-  skip: true  # [win]
 
 requirements:
   build:
     - {{ compiler('c') }}
-    - {{ compiler('cxx') }}
     - make  # [unix]
   host:
     - python
@@ -38,11 +36,13 @@ about:
   license_file: LICENSE
   summary: Simple swig bindings for the GNU Linear Programming Kit
   description: |
-    swiglpk is not a high-level wrapper for GLPK (take a look at optlang 
-    if you are interested in a python-based mathematical programming language). 
+    swiglpk is not a high-level wrapper for GLPK (take a look at optlang
+    if you are interested in a python-based mathematical programming language).
     It just provides plain vanilla swig bindings to the underlying C library.
   dev_url: https://github.com/biosustain/swiglpk
 
 extra:
   recipe-maintainers:
     - druvus
+    - sthiele
+    - cdiener
