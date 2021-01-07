@@ -22,8 +22,6 @@ requirements:
     - glpk
   run:
     - python
-    - swig
-    - glpk
 
 test:
   imports:
