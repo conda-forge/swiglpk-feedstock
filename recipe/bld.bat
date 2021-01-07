@@ -1,5 +1,5 @@
-copy %LIBRARY_INC%\glpk.h %BUILD_PREFIX%
-copy %LIBRARY_LIB%\glpk.lib %BUILD_PREFIX%
+copy %LIBRARY_INC%\glpk.h %SRC_DIR%
+copy %LIBRARY_LIB%\glpk.lib %SRC_DIR%
 dir %SRC_DIR%
 dir %BUILD_PREFIX%
 doskey which where
