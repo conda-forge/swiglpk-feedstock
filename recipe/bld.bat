@@ -3,3 +3,4 @@ copy %LIBRARY_LIB%\glpk.lib %BUILD_PREFIX%
 dir %SRC_DIR%
 dir %BUILD_PREFIX%
 doskey which where
+python -m pip install . --no-deps -vv
