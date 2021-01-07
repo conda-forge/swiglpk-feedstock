@@ -1,2 +1,2 @@
-copy %LIBRARY_INC%\glpk.h %SRC_DIR%
-copy %LIBRARY_LIB%\glpk.lib %SRC_DIR%
+copy %LIBRARY_INC%\glpk.h %BUILD_PREFIX%
+copy %LIBRARY_LIB%\glpk.lib %BUILD_PREFIX%
