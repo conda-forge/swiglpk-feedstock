@@ -22,6 +22,7 @@ requirements:
     - glpk
   run:
     - python
+    - glpk
 
 test:
   imports:
