@@ -1,2 +1,2 @@
-copy %LIBRARY_INC%\glpk.h .
-copy %LIBRARY_LIB%\glpk.lib .
+copy %LIBRARY_INC%\glpk.h %SRC_DIR%
+copy %LIBRARY_LIB%\glpk.lib %SRC_DIR%
