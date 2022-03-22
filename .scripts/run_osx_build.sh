@@ -56,6 +56,7 @@ source run_conda_forge_build_setup
 echo -e "\n\nMaking the build clobber file"
 make_build_number ./ ./recipe ./.ci_support/${CONFIG}.yaml
 
+<<<<<<< HEAD
 if [[ "${HOST_PLATFORM}" != "${BUILD_PLATFORM}" ]]; then
     EXTRA_CB_OPTIONS="${EXTRA_CB_OPTIONS:-} --no-test"
 fi
@@ -81,6 +82,29 @@ else
 
     ( endgroup "Validating outputs" ) 2> /dev/null
 
+=======
+
+if [[ "${BUILD_WITH_CONDA_DEBUG:-0}" == 1 ]]; then
+    if [[ "x${BUILD_OUTPUT_ID:-}" != "x" ]]; then
+        EXTRA_CB_OPTIONS="${EXTRA_CB_OPTIONS:-} --output-id ${BUILD_OUTPUT_ID}"
+    fi
+    conda debug ./recipe -m ./.ci_support/${CONFIG}.yaml \
+        ${EXTRA_CB_OPTIONS:-} \
+        --clobber-file ./.ci_support/clobber_${CONFIG}.yaml
+
+    # Drop into an interactive shell
+    /bin/bash
+else
+    conda mambabuild ./recipe -m ./.ci_support/${CONFIG}.yaml \
+        --suppress-variables ${EXTRA_CB_OPTIONS:-} \
+        --clobber-file ./.ci_support/clobber_${CONFIG}.yaml
+    ( startgroup "Validating outputs" ) 2> /dev/null
+
+    validate_recipe_outputs "${FEEDSTOCK_NAME}"
+
+    ( endgroup "Validating outputs" ) 2> /dev/null
+
+>>>>>>> main
     ( startgroup "Uploading packages" ) 2> /dev/null
 
     if [[ "${UPLOAD_PACKAGES}" != "False" ]] && [[ "${IS_PR_BUILD}" == "False" ]]; then
