@@ -13,12 +13,14 @@ build:
 
 requirements:
   build:
+    - python                                 # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - {{ compiler('c') }}
     - make  # [unix]
+    - swig
   host:
     - python
     - pip
-    - swig
     - glpk
   run:
     - python
