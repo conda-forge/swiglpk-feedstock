@@ -1,4 +1,4 @@
-{% set version = "5.0.9" %}
+{% set version = "5.0.10" %}
 
 package:
   name: swiglpk
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/biosustain/swiglpk/archive/{{ version }}.tar.gz
-  sha256: 8ebbe998e15b4e170b2fcd6e2167fb9ccfc99564588a94a3eb34ad4c714f4330
+  sha256: e6f1055f4c2569cbee6234c6ddb48855cc0a1d79ee26fd587c1767d670470153
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
