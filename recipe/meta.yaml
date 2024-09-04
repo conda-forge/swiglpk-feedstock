@@ -22,6 +22,7 @@ requirements:
     - swig
   host:
     - python
+    - setuptools
     - pip
     - glpk >=5.0.0
   run:
