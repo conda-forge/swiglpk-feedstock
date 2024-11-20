@@ -1,5 +1,5 @@
-{% set version = "5.0.10" %}
-{% set sha256 = "4df7cc42ed2ea83f389577e77272c607503bb92b3bab769c86fc78bfc32cbab7" %}
+{% set version = "5.0.11" %}
+{% set sha256 = "04f1832b54c8faa2c6b2acb475c540d213486d8c425e42c9b3c40022ebb87a01" %}
 
 package:
   name: swiglpk
@@ -10,7 +10,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
